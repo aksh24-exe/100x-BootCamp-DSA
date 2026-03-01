@@ -9,7 +9,7 @@ int main(){
         cin>>arr[i];
     }
     int small = arr[0];
-    int index = 0;
+    int index = 1;
     for(int i=0;i<=n-1;i++){
         if(arr[i] < small){
             small = arr[i];
